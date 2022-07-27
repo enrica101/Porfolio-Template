@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+body{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #222831;
+    color: #EEEEEE;
+    font-family: 'Poppins', 'sans-serif';
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* TOP NAV CSS */
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 300;
+    align-items: center;
+    width: 100vw;
+    height: 40px;
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li{
+    margin: 0 15px;
+}
+
+nav ul li a{
+    color: inherit;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #FFD369;
+    border-bottom: 2.5px solid #FFD369;
+}
+
+nav .right{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    padding: 4px 30px;
+    border: 1px solid #FFD369;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn-hire-me{
+    font-family: inherit;
+    font-weight:  500;
+    letter-spacing: 1px;
+    background-color: transparent;
+    color: #EEEEEE;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.btn-hire-me:hover{
+    border: 1px solid #eee;
+    box-shadow: 1px 0 5px rgba(255, 255, 255, 0.4);
+}
+
+.icon{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icon.dark{
+    color: #EEEEEE;
+}
+
+.icon-theme-mode{
+    font-size: 20px;
+}
+
+.icon-theme-mode:hover{
+    color: #FFD369;
+}
+
+/* END TOP NAV CSS */
+
+/* HERO CSS */
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 80vh;
+}
+
+.hero .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-bottom: 80px;
+}
+
+.hero .left h1{
+    font-size: 50px;
+    width: 80%;
+    /* margin: 0; */
+    line-height: 50px;
+}
+
+.hero .left h3{
+    font-weight: 300;
+    width: 80%;
+}
+
+.hero .right img.myphoto{
+    margin-top: 100px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+/* SKILLS CSS */
+h1{
+    letter-spacing: 1px;
+}
+
+.skills.dark{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 70vh;
+    margin-top: 160px;
+    margin-bottom: 140px;
+}
+.skills .top, 
+.projects .top,
+.designs .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.skills .top img,
+.projects .top img,
+.designs .top img{
+    position: absolute;
+    width: 250px;
+}
+
+.skills ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    /* margin:  auto; */
+    /* width: 80%; */
+}
+
+.skills ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills ul li i{
+    font-size: 70px;
+    margin: 10px 30px;
+}
+
+/* PROJECTS CSS */
+
+
+.projects, 
+.designs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: max-content;
+    width: 100vw;
+    margin-bottom: 100px;
+}
+
+.projects ul, 
+.designs ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 80px;
+}
+
+.projects ul li, 
+.designs ul li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 15px;
+}
+
+
+
+.projects ul li p,
+.designs ul li p{
+    margin: 0;
+}
+
+.projects ul li small,
+.designs ul li small{
+    font-size: 12px;
+}
+
+.projects ul li img, 
+.designs ul li img{
+    width: 280px;
+    border-radius: 10px;
+    margin-bottom: 14px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-weight: 200;
+    font-size: small;
+    padding: 0;
+    margin-left: 20px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    margin-right: 30px;
+}
+
+footer ul li{
+    font-size: 40px;
+    margin: 10px 15px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+footer ul li a:hover{
+    color: #FFD369;
+}
+
+
+
+footer p{
+    margin: 0;
+}
+
+
+
+
