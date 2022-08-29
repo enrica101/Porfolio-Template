@@ -98,7 +98,8 @@ nav .right{
     justify-content: center;
     align-items: center;
     width: 100vw;
-    height: 80vh;
+    height: 70vh;
+    margin-top: 70px;
 }
 
 .hero .left{
@@ -273,7 +274,6 @@ footer p{
     .hero{
         flex-wrap: wrap-reverse;
         height: 100vh;
-        margin-top: 40px;
     }
 
  }
@@ -290,9 +290,6 @@ footer p{
  }
 
  @media (max-width: 580px) {
-    .hero{
-        margin-top: 80px;
-    }
 
     nav{
         flex-direction: column;
