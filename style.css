@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&family=Roboto+Condensed:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
 
+
 body{
-    position: relative;
     display: flex;
     flex-direction: column;
     background-color: #222831;
@@ -95,8 +95,7 @@ nav .right{
 .hero{
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    flex-wrap: wrap;
+    align-items: center;
     width: 100vw;
     height: 80vh;
 }
@@ -104,10 +103,8 @@ nav .right{
 .hero .left{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    text-align: left;
-    padding-bottom: 80px;
+    text-align: center;
 }
 
 .hero .left h1{
@@ -122,10 +119,10 @@ nav .right{
     width: 80%;
 }
 
-.hero .right img.myphoto{
-    margin-top: 100px;
+.hero img.myphoto{
     width: 450px;
-    border-radius: 50%;
+    height: fit-content;
+    margin: auto;
 }
 
 /* SKILLS CSS */
@@ -235,7 +232,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 20px;
     font-weight: 200;
     font-size: small;
@@ -271,6 +268,46 @@ footer p{
     margin: 0;
 }
 
+@media (max-width: 976px) { 
+    .hero{
+        flex-wrap: wrap-reverse;
+        height: 100vh;
+        margin-top: 40px;
+    }
 
+ }
+
+ @media (max-width: 776px) {
+    nav ul{
+        display: none;
+    }
+    nav .icon{
+        position: fixed;
+        top: 20px;
+        right: 40px;
+    }
+ }
+
+ @media (max-width: 580px) {
+    .hero{
+        margin-top: 80px;
+    }
+
+    nav{
+        flex-direction: column;
+        height: 130px;
+        margin: auto;
+    }
+    nav .icon{
+        position: fixed;
+        top: 40px;
+    }
+
+    nav .btn{
+        width: 200px;
+        height: 37px;
+    }
+
+ }
 
 
