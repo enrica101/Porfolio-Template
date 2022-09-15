@@ -213,13 +213,18 @@ h1{
 
 
 .projects ul li p,
-.designs ul li p{
+.designs ul li p,
+.projects ul li a,
+.designs ul li a{
     margin: 0;
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 .projects ul li small,
 .designs ul li small{
     font-size: 12px;
+    text-decoration: underline;
 }
 
 .projects ul li img, 
