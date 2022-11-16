@@ -96,7 +96,7 @@ nav .right{
 .hero{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100vw;
     height: 70vh;
@@ -125,7 +125,7 @@ nav .right{
 .hero img.myphoto{
     width: 450px;
     height: fit-content;
-    margin: auto;
+    /* margin: auto; */
 }
 
 /* SKILLS CSS */
